@@ -1,9 +1,11 @@
+/* Reference only */
+
 import React, { useState, useEffect } from "react";
 import SearchBar from "./SearchBar";
 import youtube from "../apis/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
-import { API_KEY } from "../apis/video-hooks-api";
+import { API_KEY } from "../apis/video-hooks-api"; // commented out to prevent errors deploying to Netlify
 
 // console.developers.google.com
 const KEY = API_KEY;
