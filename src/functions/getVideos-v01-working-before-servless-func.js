@@ -3,7 +3,7 @@ import axios from "axios";
 
 exports.handler = function (event, context, callback) {
   // const { API_URL, API_KEY } = process.env;
-  const API_KEY = "AIzaSyAUMvQZXtM1ywv0leu_p_CVaWIhAagck3k";
+  const API_KEY = "AIzaSyCVdCbdit08UrBt2ky0pOcHlaCtKORekdQ";
   const API_URL = "https://www.googleapis.com/youtube/v3";
   const { term } = JSON.parse(event.body);
 
