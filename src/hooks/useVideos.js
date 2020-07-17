@@ -4,7 +4,8 @@ import youtube from "../apis/youtube";
 // import { API_KEY } from "../apis/video-hooks-api"; // No longer using.  Instead API calls will be made via Netlify's ServerLess functions.
 
 // console.developers.google.com > YouTube Data API v3
-const KEY = "AIzaSyCVdCbdit08UrBt2ky0pOcHlaCtKORekdQ";
+const KEY = "AIzaSyAUMvQZXtM1ywv0leu_p_CVaWIhAagck3k";
+// const KEY = "AIzaSyCVdCbdit08UrBt2ky0pOcHlaCtKORekdQ";
 
 const useVideos = (defaultSearchTerm) => {
   const [videos, setVideos] = useState([]);
